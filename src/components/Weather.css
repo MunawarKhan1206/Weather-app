@@ -1,0 +1,130 @@
+.weather {
+    place-self: center;
+    padding: 30px;
+    border-radius: 40px;
+    background-image: linear-gradient(140deg, #2a4f94, #1649a2ce, #654bc3ed);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    max-width: 400px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.weather:hover {
+    transform: scale(1.02);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.search-bar input {
+    height: 50px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: black;
+    background-color: #f0f8ff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.search-bar input:focus {
+    background-color: #ebfffc;
+    box-shadow: 0 0 8px rgba(0, 191, 255, 0.5);
+}
+
+.search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #f0f8ff;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.search-bar img:hover {
+    transform: scale(1.05);
+    background-color: #e0f7fa;
+}
+
+.weather-icon {
+    width: 110px;
+    margin: 15px 0;
+}
+
+.temperature, .location {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 3px;
+    font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.loading-text,.error-text {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 7px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.weather-data {
+    width: 100%;
+    color: #f5f8fa;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+.weather-data .col:hover {
+    transform: scale(1.05);
+}
+
+.weather-data .col img {
+    width: 45px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.weather-data .col img:hover {
+    transform: rotate(20deg);
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.weather-data .col span:hover {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
