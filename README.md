@@ -1,6 +1,6 @@
 # Weather App - Vite/React
 
-**Live Demo:** [Weather App ](https://weather-web-in-react.vercel.app/)
+**Live Demo:** [Weather App](https://weather-web-in-react.vercel.app/)
 
 This is a simple weather app built with **Vite** and **React**. The app fetches and displays weather information with a clean user interface. It leverages basic React components and CSS styling for a smooth and responsive user experience.
 
@@ -9,6 +9,7 @@ This is a simple weather app built with **Vite** and **React**. The app fetches 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Usage](#usage)
 
 ## Features
 
@@ -31,3 +32,13 @@ To get started with this project, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/Munawarkhan1206/weather-app.git
+cd weather-app
+npm install
+
+```
+
+## Usage
+
+**To run the app locally, use the following command:**
+
+npm run dev
