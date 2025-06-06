@@ -1,15 +1,14 @@
 .weather {
     place-self: center;
-    padding: 30px;
-    border-radius: 40px;
-    background-image: linear-gradient(140deg, #2a4f94, #1649a2ce, #654bc3ed);
+    padding: 25px;
+    border-radius: 50px;
+    background-image: linear-gradient(140deg, #2752a0, #1d458bce, #7259cfed);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 20px;
     max-width: 400px;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
 }
 
 .weather:hover {
@@ -20,9 +19,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 15px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .search-bar input {
@@ -35,22 +34,14 @@
     color: black;
     background-color: #f0f8ff;
     font-size: 20px;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.search-bar input:focus {
-    background-color: #ebfffc;
-    box-shadow: 0 0 8px rgba(0, 191, 255, 0.5);
 }
 
 .search-bar img {
     width: 50px;
-    padding: 15px;
+    padding: 12px;
     border-radius: 50%;
     background-color: #f0f8ff;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .search-bar img:hover {
@@ -59,13 +50,13 @@
 }
 
 .weather-icon {
-    width: 110px;
+    width: 100px;
     margin: 15px 0;
 }
 
 .temperature, .location {
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1;
     margin-bottom: 3px;
     font-weight: 700;
@@ -77,7 +68,7 @@
     color: #fff;
     font-size: 30px;
     line-height: 1;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
     font-weight: 700;
     text-align: center;
 }
@@ -95,7 +86,7 @@
 .weather-data .col {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 7px;
     font-size: 20px;
     text-align: center;
     flex-direction: column;
@@ -104,6 +95,7 @@
 
 .weather-data .col:hover {
     transform: scale(1.05);
+    color: black;
 }
 
 .weather-data .col img {
@@ -113,7 +105,11 @@
 
 .weather-data .col img:hover {
     transform: rotate(20deg);
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
 }
+
 
 .weather-data .col span {
     display: block;

@@ -1,6 +1,6 @@
 # Weather App - Vite/React
 
-**Live Demo:** [Weather App](https://weather-web-in-react.vercel.app/)
+**Live Demo:** [Weather App](https://weather-app-jet-phi-27.vercel.app/)
 
 This is a simple weather app built with **Vite** and **React**. The app fetches and displays weather information with a clean user interface. It leverages basic React components and CSS styling for a smooth and responsive user experience.
 
